@@ -50,30 +50,25 @@
         .text-container {
             text-align: left;
             width: 30%;
-            margin-left: 20%;
+            margin-left: 300;
             margin-top: 30px;
           	margin-bottom: 20px;
+          	margin-right: -100px;
             float: left;
         }
-
-        .gallery-container {
-          	align-content: center;
-            width: 60%; 
-            margin-left: 12%;
-            float: left;
+        
+        .image-container {
+            width: 50%;  
+            float: right;
+        }
+      
+      	.icon-container {
             display: flex;
-        }
-
-        .gallery-container img {
-          	align-content: center;
+            align-items: center;
           	margin-left: -20px;
-          	margin-right: -20px;
-          	margin-top: -10px;
-        	  margin-bottom: 10px;
-
-
         }
-    </style>
+
+  </style>
 </head>
 
 <body>
@@ -114,27 +109,37 @@
     </ul>
 
     <div class="text-container">
-        <img src="film.png" alt="film" width="120">
+        <img src="contact.png" alt="contact" width="170">
+      <p> For inquiries, please email me at:
+        <div class="icon-container">
+                <img src="mail.png" alt="mail" width="50"><i>collin0923@gmail.com</i>
+            </div>
+      </p>
+      <br>
+      <p>
+        Follow me on my socials
+      </p>
+      <p>
+        <div class="icon-container">
+          <img src="ig.png" alt="insta" width="50">
+           <a href="https://www.instagram.com/collin.yeung/">
+            <i>@collin.yeung</i>
+           </a> 
+      </div>
+      </p>
+      <p> 
+        <div class="icon-container">
+          <img src="tiktok.png" alt="tikok" width="50">
+           <a href="https://www.tiktok.com/@collin.yeung">
+            <i>@collin.yeung</i>
+           </a> 
+        </div>
+      </p>
+    </div>
+    <div class="image-container">
+        <img src="phone.png" alt="me" width="300">
     </div>
 
-    <div class="gallery-container">
-      <figure>
-        <a href="https://youtu.be/2lQ6BxVXRNA">
-              <img src="sponge.jpg" alt="sponge" height="250">
-            </a>
-        <figcaption>
-            Sponge<br>2023
-        </figcaption>
-        </figure>
-        <figure>
-        <a href="https://youtu.be/w2RGNoVXJLc">
-              <img src="kellys.png" alt="kellys canvas" height="250">
-            </a>
-        <figcaption>
-            Kelly's Canvas<br>2023
-        </figcaption>
-        </figure>
-    </div>
 </body>
 </html>
 
