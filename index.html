@@ -8,6 +8,7 @@
         h1 {
             text-align: right;
           	margin-right: 40px;
+          	font-size: 20px;
         }
 
         body {
@@ -15,6 +16,7 @@
           	background-repeat: no-repeat;
           	background-size: 100% 100%;
             text-align: center;
+          	font-size: 16px;
             font-family: "Courier New", monospace;
         }
 
@@ -48,7 +50,7 @@
             left: -20px;
             bottom: -5px;
         }
-
+      	
         .text-container {
             text-align: left;
             width: 30%;
@@ -65,12 +67,14 @@
           	margin-right: 90px
         }
       
-      	.icon-container {
-            display: flex;
-            align-items: center;
-          	margin-left: -20px;
+      	.contact-table {
+          	text-align: left;
         }
-
+      	
+        a:visited .contact-table {
+            color: red; 
+        }
+    
   </style>
 </head>
 
@@ -113,35 +117,40 @@
 
     <div class="text-container">
         <img src="contact.png" alt="contact" width="170">
-      <p> For inquiries, please email me at:
-        <div class="icon-container">
-                <img src="mail.png" alt="mail" width="50">
-                <a href="mailto:c5yeung@uwaterloo.ca">
+      <p><b> For inquiries, please email me at: </b></p>
+        <table class="contact-table">
+            <tr>
+                <td><img src="mail.png" alt="mail" width="50">
+						</td>
+                <td><a href="mailto:c5yeung@uwaterloo.ca">
                   <i>c5yeung@uwaterloo.ca</i>
                 </a>
-            </div>
-      </p>
+              </td>
+            </tr>
+        </table>
       <br>
-      <p>
-        Follow me on my socials
-      </p>
-      <p>
-        <div class="icon-container">
-          <img src="ig.png" alt="insta" width="50">
-           <a href="https://www.instagram.com/collin.yeung/">
-            <i>@collin.yeung</i>
-           </a> 
-      </div>
-      </p>
-      <p> 
-        <div class="icon-container">
-          <img src="tiktok.png" alt="tikok" width="50">
-           <a href="https://www.tiktok.com/@collin.yeung">
-            <i>@collin.yeung</i>
-           </a> 
-        </div>
-      </p>
+      
+      <p><b>Follow me on my socials</b></p>
+      <table class="contact-table">
+            <tr>
+                <td><img src="ig.png" alt="insta" width="50">
+						</td>
+                <td><a href="https://www.instagram.com/collin.yeung/">
+                <i>@collin.yeung</i>
+                </a>
+              </td>
+              </tr>
+            <tr>
+              <td><img src="tiktok.png" alt="tikok" width="50">
+            </td>
+              <td><a href="https://www.tiktok.com/@collin.yeung">
+              <i>@collin.yeung</i>
+                </a>
+              </td>
+        </tr>
+        </table>
     </div>
+      
     <div class="image-container">
         <img src="phone.png" alt="me" width="300">
     </div>
