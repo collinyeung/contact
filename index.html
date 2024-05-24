@@ -38,10 +38,11 @@
 
         .container {
             display: flex;
-            justify-content: flex-start; /* Adjusted to move the content to the left */
-            align-items: flex-start; /* Adjusted to align content to the top */
-            width: 80%; /* Adjust as needed */
-            margin-top: 20px; /* Adjust margin-top to create space */
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
         }
 
         ul {
@@ -83,6 +84,7 @@
 .text-container {
             margin-left: -250px; /* Adjust margin-left to create space */
             text-align: left;
+            margin-top: 50px;
             
             
         }
@@ -115,18 +117,22 @@
 
    <div class="rect-container">
   </div>
-    <h1><img src="sign.png" alt="Name" width="280"></h1>
+    <h1><a href="https://collinyeung.github.io/home/">
+      <img src="sign.png" alt="Name" width="280">
+      </a> 
+        </h1>
 
-    <ul>
-        <li>
-              <a href="https://collinyeung.github.io/home/">
-                    HOME
-                    <img class="hover-image" src="circled.png" alt="hover" width="90">
+    <div class="container">
+        <ul>
+            <li>
+                <a href="https://collinyeung.github.io/drawing/">
+                    DRAWING
+                    <img class="hover-image" src="circled.png" alt="hover" width="130" height="35">
                 </a>
             </li>
-            <li>
-                <a href="https://collinyeung.github.io/artwork/">
-                    ARTWORK
+          <li>
+                <a href="https://collinyeung.github.io/editing/">
+                    EDITING
                     <img class="hover-image" src="circled.png" alt="hover" width="130" height="40">
                 </a>
             </li>
@@ -152,24 +158,24 @@
 
     <div class="text-container">
         <img src="contact.png" alt="contact" width="170">
-      <p><b> For inquiries, please email me at: </b></p>
-        <table class="contact-table">
-            <tr>
-                <td><img src="mail.png" alt="mail" width="50">
-						</td>
-                <td><a href="mailto:collin0923@gmail.com">
-                  <i>collin0923@gmail.com</i>
+    
+      <br>
+      <br>
+      <br>
+ 
+      <table class="contact-table">
+      
+        <tr>
+              <td><img src="mail.png" alt="mail" width="50">
+            </td>
+              <td><a href="mailto:collin0923@gmail.com">
+              <i>collin0923@gmail.com</i>
                 </a>
               </td>
-            </tr>
-        </table>
-      <br>
-      
-      <p><b>Follow me on my socials</b></p>
-      <table class="contact-table">
+        </tr>
             <tr>
                 <td><img src="ig.png" alt="insta" width="50">
-						</td>
+						        </td>
                 <td><a href="https://www.instagram.com/collin.yeung/">
                 <i>@collin.yeung</i>
                 </a>
@@ -184,6 +190,11 @@
               </td>
         </tr>
         </table>
+      <br>
+      <br>
+      <p>
+        <i>talk to you soon - Collin</i>
+      </p>
     </div>
       
     <div class="image-container">
